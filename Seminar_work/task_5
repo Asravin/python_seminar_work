@@ -14,6 +14,7 @@
 # Output:
 # 6
 
+
 i = int(input("Введите номер 'i'"))
 j = int(input("Введите номер 'j'"))
 if i!=0 and i!=j:
