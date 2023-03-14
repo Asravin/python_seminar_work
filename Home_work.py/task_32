@@ -1,0 +1,13 @@
+# Определить индексы элементов массива (списка), 
+# значения которых принадлежат заданному диапазону
+# (т.е. не меньше заданного минимума и не больше заданного максимума)
+
+
+from random import randint
+first_list = [randint(1, 99) for i in range(10)]
+print("Элементы: " + str(first_list))
+min_element = int(input("Введите значение минимального элемента: "))
+max_element = int(input("Введите значение максимального элемента: "))
+for i in range(len(first_list)):
+    if min_element <= first_list[i] <= max_element:
+        print("Индекс: " + str(i))
